@@ -1,0 +1,87 @@
+/* Phone from 0px to 480px (LG G5, Note 5, iPhone) */
+@media only screen and (max-width: 480px) {
+
+}
+
+/* Phone from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .main-nav { display: none }
+    html, body { font-size: 17px; }
+    .step-box .work-steps {
+        margin-bottom: 46px !important;
+    }
+    h2 { font-size: 170% }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .omni-iphone { 
+        float: none;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 38%;
+    }
+    .city-box div { 
+        margin-left: 50%; 
+        transform: translateX(-50%);
+        margin-bottom: 4px;
+    }
+    .city-box h3 { 
+        margin-bottom: 15px;
+        font-size: 110%; 
+    }
+    .testi-boxes div:last-of-type blockquote,
+    .testi-boxes div:first-of-type blockquote { width: 85% !important; }
+    .middle { margin-left: 50%; transform: translateX(-50%); width: auto }
+    .footer-nav li,
+    .social li {
+        float: none;
+    }
+    .section-footer .footer-nav {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .section-footer .social {
+        position: absolute;
+        left: 50%;  
+        transform: translateX(-50%);
+        margin-top: 30px;
+        text-align: center;
+    }
+    .social li { margin-left: 8px; margin-right: 8px}
+}
+
+/* Big tablet from 768px to 1023px (iPad Air, Nexus 9) */
+@media only screen and (max-width: 1023px) {
+    html { font-size: 18px; }
+    section { padding: 70px 0; }
+    .step-box .work-steps { margin-bottom: 30px; }
+    .step-box:last-child { margin-top: 50px; }
+    .city-boxes { font-size: 17px; }
+    .city-box div ion-icon { margin-right: 2%; }
+    .testi-boxes div:last-of-type blockquote,
+    .testi-boxes div:first-of-type blockquote { width: 95%; }
+    .plan { width: 95%; }
+    .section-signup { font-size: 18px; }
+    form { width: 69%; }
+}
+
+/* Big screen from 1024px to 1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 3%;
+    }
+
+    .row {
+        padding: 0 3%;
+    }
+
+    .pad {
+        padding-top: 60px;
+    }
+}
